@@ -1,0 +1,44 @@
+.balance-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .balance-container-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .total-balance-amount{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .income-expense-box{
+    display: flex;
+    background-color: white;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .income-expense-box-general{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 30px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .income-box{
+    border-right: 1px solid #aaaaaa;
+  }
+  .income-amount{
+    color: green;
+    font-size: 18px;
+  }
+  .expense-amount{
+    color: red;
+    font-size: 18px;
+  }

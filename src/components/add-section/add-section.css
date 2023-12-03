@@ -1,0 +1,34 @@
+.add{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add-title{
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 7px 0px;
+    margin-bottom: 15px;
+}
+.input-text-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.input-add{
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 5px;
+}
+.add-btn{
+    background-color:#9486fc;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

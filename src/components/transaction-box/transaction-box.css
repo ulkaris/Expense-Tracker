@@ -1,0 +1,41 @@
+.transaction-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 38px;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+    gap: 7px;
+}
+.transaction-box-contentPart{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    
+}
+.transaction-text{
+    text-transform: capitalize;
+}
+.delete-btn{
+    position: absolute;
+    left: -19px;
+    background-color: #cf3851;
+    padding: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.negative-color{
+    background-color: #9e0821;
+    height: 100%;
+    width: 4px;
+}
+.positive-color{
+    background-color: green;
+    height: 100%;
+    width: 4px;
+}

@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.modalInput{
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+.send-btn{
+    padding: 3px;
+    width: 30%;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+}
+

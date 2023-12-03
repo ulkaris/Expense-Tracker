@@ -1,0 +1,16 @@
+.history{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.history-title{
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 7px 0px;
+}
+.transaction-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
